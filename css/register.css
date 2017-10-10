@@ -1,0 +1,454 @@
+/*初始化样式开始*/
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, b, u, i, 
+center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, table, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, footer, header, nav, section,input  {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: "微软雅黑";
+    vertical-align: baseline;
+    -webkit-tap-highlight-color: transparent;
+}
+ol, ul {
+    list-style: none;
+}
+html{
+	width: 100%;
+}
+body {
+	width: 100%;
+	background: #fff;
+	padding-top: 1.416666rem;
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	*zoom:1;
+}
+/*初始化样式结束*/
+/*验证码发送成功的提示样式*/
+#verification{
+	width: 100%;
+	font-size: 0.305555rem;
+	color: #000000;
+	padding-top: 0.444444rem;
+	text-align: center;
+}
+/*登录注册样式开始*/
+.phone {
+	width: 100%;
+	height: auto;
+	overflow: hidden;	 
+}
+.content{
+	width: 100%;
+	height: auto;
+	margin-top: 0.861111rem;
+}
+.content ul{
+	width: 93.33333%;
+	height: auto;
+	margin: 0 auto;
+}
+.content > ul > li{
+	position: relative;
+	width: 100%;
+	height: 1.361111rem;
+	border-bottom: 1px solid #e4e4e4;
+}
+.content ul li input{
+	width: 100%;
+	height: 1.361111rem;
+	padding-left: 0.138888rem;
+	font-size: 0.416666rem;
+	color: #979797;
+}
+::-webkit-input-placeholder {
+	color:#979797;
+}
+.del_1,.del_2,.eyesBtn,#obtainBtn{
+	position:absolute;
+	top: 50%;
+	right: 0.277777rem;
+	transform: translateY(-50%);
+}
+.del_1 {
+	right: 0.277777rem;
+	display: none;
+}
+.del_2 {
+	right: 1.388888rem;
+	display: none;
+}
+.content #password p{
+	right: 0.277777rem;
+}
+/*登录按钮样式开始*/
+.content .registerBtn{
+	width: 93.33333%;
+	height: auto;	
+	margin: 0 auto;
+	margin-top: 0.833333rem;
+}
+.content .registerBtn .mainBtn{
+	width: 9.333333rem;
+	height: 1.222222rem;
+	font-size: 0.472222rem;
+	margin: 0 auto;
+	margin-top: 0.777777rem;
+	line-height: 1.222222rem;
+	color: #fff;
+	text-align: center;
+	background: url(../image/btn_register1.png) no-repeat center;
+	background-size: 100% 100%;
+	text-shadow: 0.013888rem; 	
+}
+.content .registerBtn .mainBtnInvalid{
+	width: 9.333333rem;
+	height: 1.222222rem;
+	font-size: 0.472222rem;
+	line-height: 1.222222rem;
+	color: #979797;
+	text-align: center;
+	background: url(../image/btn_register2.png) no-repeat center;
+	background-size: 100% 100%;
+}
+/*获取验证码按钮*/
+.content #obtainBtn{
+	width: 23%;
+	height: 0.694444rem;
+	right: 0.166666rem;
+	border: 0.013888rem solid #FF6D07;
+	border-radius: 0.069444rem;
+	border-image: -webkit-linear-gradient(#FF6D07,#fc3734) 1 1;
+	font-size: 0.361111rem;
+	color: #FC3734;
+	text-align: center;
+	background: #FFFFFF;
+	padding-left: 0;
+}
+/*忘记密码与注册样式开始*/
+.content .forget{
+	width: 93.3333%;
+	color: #797b7f;
+	font-size: 0.361111rem;
+	margin: 0 auto;
+	margin-top: 0.416666rem;
+	line-height: 0.486111rem;
+	text-align: center;
+}
+.content .forget .forgetBtn{
+	width: 20%;
+	float: right;
+}
+.register{
+	width: auto;
+	height: 100%;
+	font-size: 0.361111rem;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	right: 0.361111rem;
+	transform: translateY(-50%);
+}
+/*用户注册协议*/
+.content .forget img{
+	float: left;
+	margin-right: 0.138888rem;
+}
+.content .forget .agree {
+	float:left;
+	line-height: 0.375rem;
+}
+.content .forget .agree .agree_deal{
+	color: #fc3734;
+}
+.incorrect{
+	width: 7.166666rem;
+	height: 1.638888rem;
+	background: rgba(0,0,0,.65);
+	margin: 0 auto;
+	margin-top: 1.555555rem;
+	border-radius: 0.138888rem;
+}
+.incorrect p{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	line-height: 1.638888rem;
+	font-size: 0.472222rem;
+}
+.passwordRetrieval{
+	width: 8.361111rem;
+	height: 4.111111rem;
+	margin: 0 auto;
+	background: url(../image/bombBox.png) no-repeat center;
+}
+/*连续三次登录失败的弹窗开始*/
+.forgotPassword{
+	width: 83.611111%;
+    height: 4.111111rem;
+    position: absolute;
+    left: 50%;
+    top: 4.583333rem;
+    transform: translateX(-50%);
+    background: url("../image/bg-password.png") no-repeat center;
+    background-size: 100% 100%;
+    z-index: 1027;
+}
+.forgotPassword p{
+	width: 100%;
+	height: 2.944444rem;
+	font-size: 0.472222rem;
+	line-height: 2.944444rem;
+	text-align: center;
+	border-bottom: 1px solid #e4e4e4;
+}
+.forgotPassword .choice{
+	width: 100%;
+	height: 1.152777rem;
+	font-size: 0.416666rem;
+	text-align: center;
+}
+.forgotPassword .choice span{
+	display: inline-block;
+	width: 49.2%;
+	height: 1.152777rem;
+	line-height: 1.152777rem;
+	text-align: center;
+}
+.forgotPassword .choice .choiceBtn{
+	/*width: 4.055555rem;*/
+	border-radius: 0 0 0.208333rem 0;
+	background: linear-gradient(to right ,#ff6d07,#fc3734);
+}
+/*密码找回成功的样式*/
+.loginSuccess{
+	width: 8.361111rem;
+    height: 4.111111rem;
+    position: absolute;
+    left: 8%;
+    top: 6rem;
+    background: url(../image/bg-password.png) no-repeat center;
+    background-size: 100% 100%;
+    z-index: 1027;
+}
+/*.loginSuccess p{
+	width: 100%;
+	height: 2.944444rem;
+	font-size: 0.472222rem;
+	line-height: 2.944444rem;
+	text-align: center;
+	border-bottom: 1px solid #e4e4e4;
+}
+.loginSuccess .choice{
+	width: 100%;
+	height: 1.152777rem;
+	font-size: 0.416666rem;
+	text-align: center;
+}
+.loginSuccess .choice span{
+	width: 49%;
+	height: 1.152777rem;
+	display: inline-block;
+	line-height: 1.152777rem;
+	text-align: center;
+}
+.loginSuccess .choice .choiceBtn{
+	width: 49%;
+	border-radius: 0 0 0.208333rem 0;
+	background: #4dd9fb;
+}
+.loginSuccess .choice .renameBtn{
+	width: 4.055555rem;
+	border-radius: 0 0 0.208333rem 0;
+	background: #4dd9fb;
+}*/
+/*遮罩层开始*/
+.mask {       
+    position: absolute; 
+    top: 0px; 
+    filter: alpha(opacity=60); 
+    background-color: #777;     
+    z-index: 1002; 
+    left: 0px;     
+    opacity:0.5; 
+    -moz-opacity:0.5;     
+} 
+/*其它登录方式开始*/
+.other_login {
+	width: 93.333333%;
+	margin: 0 auto;
+	height: auto;	
+	margin-top: 4.111111rem;
+}
+.ol_top {
+	width: 100%;
+	height: 0.416666rem;
+	line-height: 0.416666rem;
+	text-align: center;
+	position: relative;
+}
+.ol_top  p {
+	width: 100%;
+	height: 0.416666rem;
+	font-size: 0.305555rem;
+	color: #979797;
+}
+.line_left {
+	position: absolute;
+	width: 1.888888rem;
+	height: 0;
+	left: 1.6rem;
+	top: 0.208333rem;
+	border-bottom:1px solid #e4e4e4;
+}
+.line_right {
+	position: absolute;
+	width: 1.888888rem;
+	height: 0;
+	top: 0.208333rem;
+	right: 1.6rem;
+	border-bottom:1px solid #e4e4e4;
+}
+.ol_bottom {
+	width: 100%;
+	margin-top: 0.638888rem;
+	height: 2.51rem;
+	position: relative;
+}
+.ol_left {
+	display:inline-block;
+	position: absolute;
+	height: auto;
+	top: 0;
+	left: 2.138888rem;
+	text-align: center;
+}
+.ol_right {
+	display:inline-block;
+	position: absolute;
+	height: auto;
+	top: 0;
+	right: 2.138888rem;
+	text-align: center;
+}
+.ol_bottom p {
+	font-size: 0.388888rem;
+	color: #797b7f;
+	margin-top: 0.333333rem;
+	margin-bottom: 0.861111rem;
+}
+/*弹窗样式开始*/
+.shade {
+    width: 72%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 0.277777rem;
+    padding-bottom: 0.277777rem;
+    background:#000000;
+    opacity:0.65;
+    border: 1px solid #00000;
+    border-radius: 0.138888rem;
+    margin-top:  0.416666rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    display:none;
+}
+.shade > p {
+   width: 80%;
+   height: auto;
+   font-size: 0.472222rem;
+   margin: 0.305555rem auto;
+   color: #fff;
+   text-align: center;
+   /*超出宽度自动换行*/
+   word-wrap:break-word;
+}
+/*顶部公共样式*/
+.head {
+	width: 100%;
+	height:1.416666rem;
+	line-height: 1.416666rem;
+	text-align: center;
+	position: fixed;
+	background: url("../image/top_bg.png") no-repeat center;
+	background-size: 100% 100%;
+	top: 0;
+	left: 0;
+}
+.back {
+	position: absolute;
+	display:inline-block;
+	width: 1.055555rem;
+	height: 1.416666rem;
+	left: 0.208333rem;
+	top: 0;
+}
+.back img{
+	width: 0.444444rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+}
+.sure {
+	width: 100%;
+	height: 100%;
+	font-size: 0.472222rem;
+	color: #fff;
+}
+.save {
+	width: auto;
+	height: 100%;
+	font-size: 0.361111rem;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	right: 0.361111rem;
+	transform: translateY(-50%);
+}
+.message {
+	position: absolute;
+	display:inline-block;
+	width: 1.055555rem;
+	height: 1.416666rem;
+	right: 0.361111rem;
+	top: 0;
+}
+.message img {
+	width: 0.583333rem;
+	height: 0.569444rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+}
+/*邀请码样式*/
+.invitation {
+	width: 93.333333%;
+	height: 1.361111rem;
+	margin: 0 auto;
+	border-bottom: 0.013888rem solid #e4e4e4;
+}
+.invita_code {
+	width: 100%;
+	height: 100%;
+	line-height: 1.361111rem;
+	font-size: 0.416666rem;
+	color: #979797;
+	padding-left: 0.138888rem;
+}

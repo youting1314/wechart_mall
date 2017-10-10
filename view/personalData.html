@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>个人资料</title>
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/personalData.css" />
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="head">
+				<div class="back">
+					<img src="../image/wback.png" alt="" />
+				</div>
+				<p class="sure">个人资料</p>
+			</div>
+			<div class="header clearfix">
+				<p class="header_p">头像</p>
+				<div class="header_div">
+					<img class="hd_img" src="../image/default_pic.png" alt="" />
+					<img class="hd_back" src="../image/arrow_bright.png" alt="" />
+				</div>
+			</div>
+			<div class="nickName clearfix">
+				<p class="nickName_p">昵称</p>
+				<div class="nickName_div">
+					<p>小洋人</p>
+					<img src="../image/arrow_bright.png" alt="" />
+				</div>
+			</div>
+			<div class="gender clearfix">
+				<p class="gender_p">性别</p>
+				<div class="gender_div">
+					<p>未填写</p>
+					<img src="../image/arrow_bright.png" alt="" />
+				</div>
+			</div>
+			<div class="birthday clearfix">
+				<p class="birthday_p">生日</p>
+				<div class="birthday_div">
+					<p>未填写</p>
+					<img src="../image/arrow_bright.png" alt="" />
+				</div>
+			</div>
+			<div class="myAdress clearfix">
+				<p class="myAdress_p">我的收获地址</p>
+				<div class="myAdress_div">
+					<img src="../image/arrow_bright.png" alt="" />
+				</div>
+			</div>
+			<!--弹窗遮罩层-->
+			<div id="mask" class="mask"></div>
+			<div class="up_style" style="display: none">
+				<p class="take_pic">拍照</p>
+				<p class="photo_select">从相册选择</p>
+				<p class="cancel">取消</p>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="../js/flexible.js"></script>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script>
+	$(function() {
+		/*showMask();*/
+		//显示遮罩层  
+		 function showMask(){     
+	        $("#mask").css("height",$(document).height());     
+	        $("#mask").css("width",$(document).width());     
+	        $("#mask").show();     
+	    } 
+		//隐藏遮罩层  
+		 function hideMask(){     	          
+		     $("#mask").hide();     
+		 } 
+	})
+</script>

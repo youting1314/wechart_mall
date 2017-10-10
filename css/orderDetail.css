@@ -1,0 +1,214 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.od_bg {
+	width: 100%;
+	height: 2.611111rem;
+	line-height: 2.611111rem;
+	background: url("../image/od_bg.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.od_bg img {
+	width: 0.958333rem;
+	height: 0.847222rem;
+	vertical-align: middle;
+	margin-left: 1.277777rem;
+	margin-right: 0.472222rem;
+}
+.od_bg p {
+	display: inline-block;
+	font-size: 0.472222rem;
+	vertical-align: middle;
+	color: #fff;
+}
+.adress {
+	width: 92.222222%;
+	margin: 0 auto;
+	height: 2.755555rem;
+	padding-top: 0.388888rem;
+}
+.r_detail {
+	width: 100%;
+	height: 0.513888rem;
+	line-height: 0.513888rem;
+}
+.receive {
+	float: left;
+	display: inline-block;
+	margin-left: 1rem;
+	height: auto;
+	font-size: 0.416666rem;	
+}
+.r_tel {
+	float: right;
+	font-size: 0.416666rem;
+	margin-right: 0.333333rem;
+}
+.ad_detail {
+	width: 100%;
+	margin-top: 0.305555rem;
+	height: 1.111111rem;
+}
+.ad_left {
+	float: left;
+	display: inline-block;
+	height: 100%;
+}
+.ad_left img {
+	width: 0.458333rem;
+	height: 0.597222rem;
+	margin-top: 0.069444rem;
+	margin-right: 0.527777rem;
+}
+.ad_right {
+	float: right;
+	width: 87%;
+	height: 1.5rem;
+	font-size: 0.305555rem;
+	line-height: 0.5rem;
+	float: left;
+	display: -webkit-box;
+    white-space: normal;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.bgc {
+	width: 100%;
+	height: 0.305555rem;
+	background: #f5f5f5;
+}
+.myGoods {
+	width: 100%;
+	height: auto;
+	margin-top: 0.361111rem;
+}
+.mg_goods {
+	width: 100%;
+	height: 2.527777rem;
+	padding: 0.208333rem 0.361111rem;
+	background: #fafafa;
+}
+.mg_img {
+	width: 22.835820%;
+	height: 2.125rem;
+	float: left;
+}
+.mg_text {
+	width: 77.164179%;
+	height: 2.125rem;
+	float: right;
+	position: relative;
+}
+.mg_title {
+	width: 100%;
+	height: 0.833333rem;
+	padding-left: 0.361111rem;
+}
+.mg_h {
+	width: 75%;
+	height: 0.944444rem;
+	font-size: 0.305555rem;
+	line-height: 0.472222rem;
+	float: left;
+	display: -webkit-box;
+    white-space: normal;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.mg_score {
+	float: right;
+	/*height: 0.416666rem;*/
+	height: 0.944444rem;
+	text-align: end;
+}
+.mg_integral {
+	font-size: 0.305555rem;
+	color: #fc3734;
+}
+.mg_money {
+	font-size: 0.305555rem;
+	margin-top: 0.097222rem;
+}
+.mg_sub {
+	height: 0.694444rem;
+	width: 100%;
+	line-height: 0.694444rem;
+	margin-top: 0.138888rem;
+	position:absolute;
+	bottom: 0.5rem;
+	padding-right: 0.333333rem;
+}
+.sub_title {
+	float: left;
+	font-size: 0.305555rem;
+	color: #979797;
+}
+.sub_num {
+	float:right;
+	text-align: end;
+	font-size: 0.305555rem;
+	color: #979797;
+}
+.total_goods {
+	width: 100%;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	border-bottom: 1px solid #e4e4e4;
+	padding-right: 0.416666rem;
+	text-align: right;
+	font-size: 0.361111rem;
+	color: #FC3734;
+}
+.total_goods .tg_pay {
+	color: #000;
+}
+.o_detail {
+	width: 100%;
+	height: 2.361111rem;
+	padding-left: 0.638888rem;
+	margin-top: 0.5rem;
+}
+.o_detail p {
+	width: 100%;
+	line-height: 0.611111rem;
+	color: #979797;
+	font-size: 0.305555rem;
+}
+.od_btn {
+	width: 100%;
+	height: 2.013888rem;
+	text-align: right;
+}
+.del_btn {
+	width: 1.833333rem;
+	height: 0.819444rem;
+	line-height: 0.819444rem;
+	border: 1px solid #FC3734;
+	border-radius: 0.409722rem;
+	background: #fff;
+	margin-right: 0.319444rem;
+	margin-top: 0.5rem;
+	color: #FC3734;
+}
+
+
+
+
+

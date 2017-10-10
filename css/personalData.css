@@ -1,0 +1,142 @@
+body {
+	width: 100%;
+	height: auto;
+	background: #f5f5f5;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.header {
+	width: 90%;
+	height: 2.277777rem;
+	line-height: 2.277777rem;
+	border-bottom: 0.013888rem solid #e4e4e4;
+	background: #fff;
+	padding-left: 0.555555rem;
+	padding-right: 0.444444rem;
+}
+.header_p {
+	float: left;
+	font-size: 0.416666rem;
+}
+.header_div {
+	float: right;
+}
+.hd_img {
+	width: 1.583333rem;
+	height: 1.583333rem;
+	vertical-align: middle;
+}
+.hd_back {
+	width: 0.194444rem;
+	height: 0.333333rem;
+	vertical-align: middle;
+	margin-left: 0.194444rem;
+}
+.nickName {
+	width: 90%;
+	height: 1.430555rem;
+	line-height: 1.430555rem;
+	border-bottom: 0.013888rem solid #e4e4e4;
+	background: #fff;
+	padding-left: 0.555555rem;
+	padding-right: 0.444444rem;
+}
+.nickName_p {
+	float: left;
+	font-size: 0.416666rem;
+}
+.nickName_div {
+	float: right;
+}
+.gender {
+	width: 90%;
+	height: 1.402777rem;
+	line-height: 1.402777rem;
+	border-bottom: 0.013888rem solid #e4e4e4;
+	background: #fff;
+	padding-left: 0.555555rem;
+	padding-right: 0.444444rem;
+}
+.gender_p {
+	float: left;
+	font-size: 0.416666rem;
+}
+.gender_div {
+	float: right;
+}
+.birthday {
+	width: 90%;
+	height: 1.347222rem;
+	line-height: 1.347222rem;
+	background: #fff;
+	padding-left: 0.555555rem;
+	padding-right: 0.444444rem;
+}
+.birthday_p {
+	float: left;
+	font-size: 0.416666rem;
+}
+.birthday_div {
+	float: right;
+}
+.myAdress {
+	width: 90%;
+	height: 1.305555rem;
+	line-height: 1.305555rem;
+	margin-top: 0.333333rem;
+	background: #fff;
+	padding-left: 0.555555rem;
+	padding-right: 0.444444rem;
+}
+.myAdress_p {
+	float: left;
+	font-size: 0.416666rem;
+}
+.myAdress_div {
+	float: right;
+}
+.nickName_div p,.gender_div p,.birthday_div p{
+	display: inline-block;
+	font-size: 0.361111rem;
+	color: #979797;
+	vertical-align: middle;
+}
+.nickName_div img,.gender_div img,.birthday_div img,.myAdress_div img {
+	width: 0.194444rem;
+	height: 0.333333rem;
+	vertical-align: middle;
+	margin-left: 0.194444rem;
+} 
+/*遮罩层开始*/
+.mask {       
+    position: absolute; 
+    top: 0px; 
+    filter: alpha(opacity=60); 
+    background-color: #777;     
+    z-index: 1002; 
+    left: 0px;     
+    opacity:0.5; 
+    -moz-opacity:0.5;     
+} 
+.up_style {
+	width: 100%;
+	height: auto;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 1005;
+}
+.take_pic,.photo_select,.cancel {
+	width: 100%;
+	height: 1.472222rem;
+	line-height: 1.472222rem;
+	text-align: center;
+	font-size: 0.416666rem;
+	border-bottom: 1px solid #e4e4e4;
+}
+.cancel {
+	border-bottom: none;
+}

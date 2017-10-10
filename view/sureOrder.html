@@ -1,0 +1,156 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no" />
+		<title>确认订单</title>
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/sureOrder.css" />
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="head">
+				<div class="back">
+					<img src="../image/wback.png" alt="" />
+				</div>
+				<p class="sure">确认订单</p>
+			</div>
+			<div class="adress">
+				<div class="r_detail clearfix">
+					<p class="receive">收货人：<span class="r_name">张三丰</span></p>
+					<span class="r_tel">18826531254</span>
+					<img class="so_arrow" src="../image/so_arrow.png" alt="" />
+				</div>
+				<div class="ad_detail clearfix">
+					<div class="ad_left">
+						<img src="../image/place.png" alt="" />
+					</div>
+					<p class="ad_right">收货地址：<span>广东省深圳市龙岗区布吉街道甘坑小镇金苹果创新园a栋17楼</span></p>
+				</div>
+				<!--收货地址为空-->
+				<!--<div class="adress_empty">
+					<p class="ae_p">您的收货地址为空，点此添加收货地址</p>
+					<img class="ae_arrow" src="../image/so_arrow.png" alt="" />
+				</div>-->
+				<!--收货地址为空-->
+			</div>
+			<img class="so_bottom" src="../image/sure_order.png" alt="" />
+			<div class="bgc"></div>
+			<div class="myGoods ">
+				<div class="mg_goods clearfix">
+					<img class="mg_img" src="../image/order_goods.png" alt="" />
+					<div class='mg_text'>
+						<p class="mg_h">现货&nbsp;瑞典进口&nbsp;ICA50%&nbsp;水果坚果燕麦片即食免煮&nbsp;冲饮早餐代餐</p>
+						<p class="sub_title">50%&nbsp;水果坚果&nbsp;750g</p>
+						<p class="mg_integral"><span>500</span>积分</p>
+						<div class='mg_sub clearfix'>
+							<p class="mg_money">￥38.9</p>
+							<p class="sub_num">x<span>1</span></p>
+						</div>
+					</div>
+				</div>
+				<div class="mg_goods clearfix">
+					<img class="mg_img" src="../image/order_goods.png" alt="" />
+					<div class='mg_text'>
+						<p class="mg_h">现货&nbsp;瑞典进口&nbsp;ICA50%&nbsp;水果坚果燕麦片即食免煮&nbsp;冲饮早餐代餐</p>
+						<p class="sub_title">50%&nbsp;水果坚果&nbsp;750g</p>
+						<p class="mg_integral"><span>500</span>积分</p>
+						<div class='mg_sub clearfix'>
+							<p class="mg_money">￥38.9</p>
+							<p class="sub_num">x<span>1</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ps_style clearfix">
+				<p class="ps_left">配送方式</p>
+				<p class="ps_right">快递&nbsp;<span>免邮</span></p>
+			</div>
+			<div class="l_message clearfix">
+				<p class="l_left">买家留言:</p>
+				<textarea class="l_right" name="" id="" cols="30" rows="10" placeholder="选填：对本次交易的说明"></textarea>
+			</div>
+			<div class="pay_style clearfix">
+				<p class="pay_left">支付方式:</p>
+				<div class="pay_right">
+					<div class="pr_one clearfix">
+						<p><span>800</span>积分兑换</p>
+						<img src="../image/integral_noCheck.png" alt="" />
+					</div>
+					<div class="pr_two clearfix">
+						<p><span>600</span>积分兑换<span>8</span>元</p>
+						<img src="../image/integral_check.png" alt="" />
+					</div>
+					<div class="pr_three clearfix">
+						<p>现金金额支付</p>
+						<img src="../image/integral_noCheck.png" alt="" />
+					</div>
+				</div>
+			</div>
+			<div class="so_total">
+				<div class="sot_left">
+					<p class="sot_top">合计：<span class="sot_m">￥</span><span class="sot_num">800</span><span class="sot_integral">&nbsp;积分</span></p>
+					<p class="sot_bottom">￥<span class="sob_m">20.9</span></p>
+				</div>
+				<button class="sot_right">提交订单</button>
+			</div>
+			<!--弹框及遮罩层-->
+			<div class='mask' style="display:none"></div>
+			<div class="loginSuccess" style="display:none">
+				<p>你还没有收货地址，先去设置一下吧！</p>
+				<div class="choice">
+					<span>取消</span>
+					<span class="go_set">去设置</span>
+				</div>
+			</div>
+			<!--弹框及遮罩层-->
+			<!--付款详情-->
+			<div class="pay_about" style="display:none">
+				<div class="pay_detail">
+					<div class="pay_back">
+						<img src="../image/pay_back.png" alt="" />
+					</div>
+					<p>付款详情</p>
+				</div>
+				<div class="pay_total">
+					<div class="pay_one clearfix">
+						<p class="one_text">需付款</p>
+						<p class="one_p"><span>8</span>&nbsp;元</p>
+					</div>
+					<div class="pay_two clearfix">
+						<p class="two_text">消耗积分</p>
+						<p class="two_p"><span>800</span>&nbsp;积分</p>
+					</div>
+					<div class="pay_three clearfix">
+						<p class="three_text">当前积分</p>
+						<p class="three_p"><span>1000</span>&nbsp;积分</p>
+					</div>
+					<div class="pay_four clearfix">
+						<div class='four_text'>
+							<img src="../image/weixin1.png" alt="" />
+							<p>微信</p>
+						</div>
+						<img class="four_img" src="../image/sure.png" alt="" />
+					</div>
+				</div>
+				<div class="pay_btn">确认付款</div>
+			</div>
+			<!--付款详情-->
+		</div>
+	</body>
+</html>
+<script src="../js/flexible.js"></script>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script>
+	$(function() {
+		$(".l_right").on("input",function() {
+			if ($(".l_right").val() != "") {
+			
+				$(".l_right").css("line-height","0.486111rem");
+			} else {
+				$(".l_right").css("line-height","1.138888rem");
+			}
+		})
+		
+		
+	})
+</script>

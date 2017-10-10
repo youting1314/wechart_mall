@@ -1,0 +1,63 @@
+body {
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.uploadText {
+	width: 93.333333%;
+	margin: 0 auto;
+	margin-top: 0.861111rem;
+}
+.uploadText li {
+	position: relative;
+	width: 100%;
+	height: 1.361111rem;
+	border-bottom: 1px solid #e4e4e4;
+}
+#phone,#code {
+	font-size: 0.416666rem;
+	line-height: 1.361111rem;
+	color: #979797;
+}
+.del_1,.eyesBtn,#obtainBtn{
+	position:absolute;
+	top: 50%;
+	right: 0.277777rem;
+	transform: translateY(-50%);
+}
+#obtainBtn{
+	width: 23%;
+	height: 0.694444rem;
+	right: 0.166666rem;
+	border: 0.013888rem solid #FF6D07;
+	border-radius: 0.069444rem;
+	border-image: -webkit-linear-gradient(#FF6D07,#fc3734) 1 1;
+	font-size: 0.361111rem;
+	color: #FC3734;
+	text-align: center;
+	background: #FFFFFF;
+	padding-left: 0;
+}
+.click_btn,.nclick_btn {
+	width: 93.333333%;
+	margin: 0 auto;
+	height: 1.222222rem;
+	line-height: 1.222222rem;
+	text-align: center;
+	font-size: 0.472222rem;
+	margin-top: 0.833333rem;
+}
+.click_btn {
+	background: url("../image/btn_register1.png") no-repeat center;
+	background-size: 100% 100%;
+	color: #fff;
+}
+.nclick_btn {
+	background: url("../image/btn_register2.png") no-repeat center;
+	background-size: 100% 100%;
+	color: #979797;
+}

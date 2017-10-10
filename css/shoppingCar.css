@@ -1,0 +1,240 @@
+body {
+	width: 100%;
+	height: auto;
+	background: #fff;
+	padding-bottom: 2.722222rem;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.bgc {
+	width: 100%;
+	height: 0.305555rem;
+	background: #f5f5f5;
+}
+.s_left,.s_num,.s_right {
+	font-size: 0.361111rem;
+}
+.control {
+	width: 92.222222%;
+	height: 1.222222rem;
+	line-height: 1.222222rem;
+	margin: 0 auto;
+	text-align: right;
+}
+.edit,.finish {
+	display: inline-block;
+	font-size: 0.361111rem;
+}
+.my_collect {
+	width: 100%;
+	height: 3.333333rem;
+	border-bottom: 1px solid #e4e4e4;
+	background: #F5F5F5;
+}
+.isChecked {
+	display: inline-block;
+	position: relative;
+	width: 0.430555rem;
+	height: 3.333333rem;
+	line-height: 3.333333rem;
+	margin-left: 0.513888rem;
+	margin-right: 0.180555rem;
+}
+.checked,.noChecked {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 0.430555rem;
+	height:0.430555rem;
+}
+.nc_img {
+	width: 2.541666rem;
+	height: 2.541666rem;
+	vertical-align: top;
+	margin-top: 0.347222rem;
+}
+.mc_text {
+	display: inline-block;
+	width: 55%;
+	margin-left: 0.208333rem;
+	vertical-align: top;
+	margin-top: 0.597222rem;
+}
+.mc_h {
+	width: 100%;
+	height: 0.944444rem;
+	font-size: 0.305555rem;
+	line-height: 0.472222rem;
+	float: left;
+	display: -webkit-box;
+    white-space: normal;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.mc_bottom {
+	width: 100%;
+	height: 1.111111rem;
+}
+.mc_left {
+	display: inline-block;
+	float: left;
+	text-align: left;
+}
+.norms {
+	font-size: 0.305555rem;
+	color: #979797;
+}
+.mc_integral {
+	font-size: 0.305555rem;
+	color: #fc3734;
+}
+.mc_money {
+	font-size: 0.305555rem;
+	
+}
+.mc_right {
+	float: right;
+	text-align: center;
+	display: inline-block;
+	width: 1.95rem;
+	font-size: 0.361111rem;
+	text-align: right;
+	margin-top: 0.91rem;
+}
+/*底部固定导航栏*/
+.f_nav {
+	width: 100%;
+	height: auto;
+	height: 1.333333rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	z-index: 1005;
+}
+.f_ul {
+	width: 100%;
+	height: auto;
+	height: 100%;
+	padding-top: 0.111111rem;
+	padding-bottom: 0.111111rem;
+}
+.f_ul li {
+	float: left;
+	width: 25%;
+	height: auto;
+	height: 100%;
+	text-align: center;
+}
+.f_ul li a {
+	width: 100%;
+	height: 100%;
+}
+.no_pitch,.pitch {
+	width: 0.625rem;
+	height: 0.569444rem;
+}
+.text {
+	margin-top: 0.027777rem;
+	color: #000;
+	font: 0.305555rem;
+}
+.text_pitch {
+	margin-top: 0.027777rem;
+	color: #fc3734;
+	font: 0.305555rem;
+}
+/*底部结算栏*/
+.so_total {
+	width: 100%;
+	height: 1.388888rem;
+	position: fixed;
+	left: 0;
+	bottom: 1.333333rem;
+	border-bottom: 0.013888rem solid #E4E4E4;
+	background: #fff;
+}
+.sot_right,.sot_del {
+	width: 29.027777%;
+	height: 100%;
+	float: right;
+	font-size: 0.472222rem;
+	color: #fff;
+	background: url("../image/stroll_btn.png") no-repeat center;
+	background-size: 100% 100%;
+	border: 0;
+	outline: 0;
+}
+.sot_left {
+	height: 100%;
+	text-align: right;
+	float: right;
+}
+#is_Checked {
+	float: left;
+	margin-left: 0.513888rem;
+	height: 1.388888rem;
+	line-height: 1.388888rem;
+}
+.is_noChecked {
+	display: inline-block;
+	width: 0.430555rem;
+	height:0.430555rem;
+	vertical-align: middle;
+}
+.is_checked {
+	display: inline-block;
+	width: 0.430555rem;
+	height:0.430555rem;
+	vertical-align: middle;
+	
+}
+.st_all {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.361111rem;
+	margin-left: 0.180555rem;
+}
+.sot_top {
+	padding-right: 0.277777rem;
+	line-height: 0.694444rem;
+	font-size: 0.361111rem;
+}
+.sot_m,.sot_num,.sot_integral {
+	color: #FC3734;
+}
+.sot_bottom {
+	padding-right: 0.347222rem;
+	line-height: 0.694444rem;
+	font-size: 0.361111rem;
+}
+/*编辑的数量变化样式*/
+.edit_c {
+	width: 60%;
+	float: right;
+}
+.minus,.t_count,.plus {
+	display: inline-block;
+	width: 31%;
+	height: 1.388888rem;
+	text-align: center;
+	line-height: 1.388888rem;
+	font-size: 0.416666rem;
+	border-bottom: 0.013888rem solid #fff;
+	border-right: 0.013888rem solid #fff;
+}
+.minus {
+	border-left: 0.013888rem solid #fff;
+}
+.norm {
+	font-size: 0.305555rem;
+	color: #979797;
+	margin-top: 0.208333rem;
+}

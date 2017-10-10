@@ -1,0 +1,108 @@
+body {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	overflow-y:auto;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.container {
+	width: 100%;
+	height: auto;
+}
+.adress {
+	width: 92.777778%;
+	margin: 0 auto;
+	height: auto;
+	padding-top: 0.416666rem;
+}
+.r_detail {
+	width: 100%;
+	height: 0.513888rem;
+	line-height: 0.513888rem;
+}
+.receive {
+	float: left;
+	display: inline-block;
+	height: auto;
+	font-size: 0.416666rem;	
+}
+.r_tel {
+	float: right;
+	font-size: 0.361111rem;
+}
+.ad_detail {
+	width: 100%;
+	margin-top: 0.5rem;
+	height: 1.111111rem;
+	border-bottom: 0.013888rem solid #e4e4e4;
+}
+.ad_right {
+	width: 100%;
+	min-height: 0.5rem;
+	max-height: 1.5rem;
+	font-size: 0.361111rem;
+	line-height: 0.5rem;
+	float: left;
+	display: -webkit-box;
+    white-space: normal;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.control_nav {
+	width: 100%;
+	height: 1.166666rem;
+	line-height: 1.166666rem;
+}
+.cn_left {
+	float: left;
+	height: 100%;
+}
+.cn_right {
+	float: right;
+	height: 100%;
+}
+.checked {
+	width: 0.444444rem;
+	height: 0.444444rem;
+	vertical-align: middle;
+}
+.noChecked {
+	width: 0.430555rem;
+	height: 0.430555rem;
+	vertical-align: middle;
+}
+.cn_left p {
+	display: inline-block;
+	font-size: 0.361111rem;
+	margin-left: 0.25rem;
+	vertical-align: middle;
+}
+.default {
+	color: #FC3734;
+}
+.edit {
+	margin-right: 0.694444rem;
+}
+.edit,.delect {
+	height: 100%;
+	width: auto;
+	display: inline-block;
+}
+.edit img,.delect img {
+	width: 0.430555rem;
+	height: 0.458333rem;
+	vertical-align: middle;
+}
+.edit P,.delect P {
+	display: inline-block;
+	font-size: 0.361111rem;
+	vertical-align: middle;
+	margin-left: 0.166666rem;
+} 

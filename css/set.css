@@ -1,0 +1,60 @@
+body {
+	width: 100%;
+	height: auto;
+	background: #f5f5f5;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.sing_remind,.changge_pwd,.change_tel,.about_xjc {
+	width: 100%;
+	height: 1.361111rem;
+	line-height: 1.361111rem;
+	border-bottom: 1px solid #E4E4E4;
+	background: #fff;
+}
+.sing_remind p,.pwd_left,.tel_left,.xjc_left {
+	float: left;
+	height: 1.361111rem;
+	font-size: 0.416666rem;
+	margin-left: 0.611111rem;
+	vertical-align: middle;
+}
+.sr_right {
+	float: right;
+	height: 1.361111rem;
+	margin-right: 0.416666rem;
+}
+.pwd_right,.tel_right,.xjc_right {
+	float: right;
+	width: 1.111111rem;
+	height: 1.361111rem;
+	text-align: center;
+	line-height: 1.361111rem;
+}
+.pwd_arrow,.tel_arrow,.xjc_arrow {
+	width: 0.194444rem;
+	height: 0.333333rem;
+	vertical-align: middle;
+}
+.s_open,.s_close {
+	width: 1.083333rem;
+	height: 0.555555rem;
+	vertical-align: middle;
+}
+.changge_pwd {
+	
+}
+.exit_account {
+	width: 93.333333%;
+	margin: 0 auto;
+	height: 1.222222rem;
+	line-height: 1.222222rem;
+	text-align: center;
+	margin-top: 0.833333rem;
+	font-size: 0.472222rem;
+	color: #fff;
+	background: url("../image/btn_register1.png") no-repeat center;
+	background-size: 100% 100%;
+}

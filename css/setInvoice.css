@@ -1,0 +1,127 @@
+body {
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.set_top {
+	width: 100%;
+	padding-left: 0.5rem;
+	padding-top: 0.638888rem;
+	padding-bottom: 0.472222rem;
+}
+.set_type {
+	font-size: 0.361111rem;
+	margin-bottom: 0.305555rem;
+}
+.set_paper,.set_added {
+	width: 2.236111rem;
+	height: 0.902777rem;
+	line-height: 0.902777rem;
+	font-size: 0.361111rem;
+	text-align: center;
+	border: 0.027777rem solid #FC3734;
+	border-radius: 0.069444rem;
+}
+.set_paper {
+	display: inline-block;
+	margin-right: 0.138888rem;
+	color: #FC3734;
+}
+.set_added {
+	display: inline-block;
+}
+.bgc_b {
+	width: 100%;
+	height: 0.25rem;
+	border-top: 1px solid #e4e4e4; 
+	border-bottom: 1px solid #e4e4e4;
+	background: #f5f5f5;
+}
+.bill {
+	width: 100%;
+	height: auto;
+	padding-left: 0.5rem;
+	padding-top: 0.638888rem;
+	padding-bottom: 0.430555rem;
+}
+.set_rise {
+	font-size: 0.361111rem;
+	margin-bottom: 0.305555rem;
+}
+.set_personal,.set_company {
+	display: inline-block;
+}
+.set_personal {
+	margin-right: 0.555555rem;
+}
+.sp_nocheck,.sc_nocheck{
+	display: inline-block;
+	width: 0.541666rem;
+	height: 0.541666rem;
+	vertical-align: middle;
+}
+.sc_check,.sp_check {
+	display: inline-block;
+	width: 0.555555rem;
+	height: 0.555555rem;
+	vertical-align: middle;
+}
+.setp,.setc {
+	display: inline-block;
+	font-size: 0.361111rem;
+	margin-left: 0.333333rem;
+	vertical-align: middle;
+}
+.invoice_message,.invoice_content {
+	width: 100%;
+	height: 1.416666rem;
+	line-height: 1.416666rem;
+	padding-left: 0.5rem;
+	font-size: 0.361111rem;
+	border-bottom: 0.013888rem solid #e4e4e4;
+}
+.invoice_phone {
+	width: 100%;
+	height: 1.416666rem;
+	padding-left: 0.5rem;
+	font-size: 0.361111rem;
+	color: #979797;
+	line-height: 1.416666rem;
+}
+.invoice_phone span {
+	margin-left: 0.805555rem;
+	color: #000;
+}
+.set_detail,.set_work,.set_consum {
+	padding-left: 0.5rem;
+	width: 100%;
+	height: auto;
+}
+.set_detail {
+	margin-top: 0.333333rem;
+}
+.set_work,.set_consum {
+	margin-top: 0.416666rem;
+}
+.sedp,.sewp,.secp {
+	font-size: 0.361111rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.333333rem;
+}
+.sure_btn {
+	width: 93.333333%;
+	margin: 0 auto;
+	margin-top: 0.680555rem;
+	height: 1.222222rem;
+	line-height: 1.222222rem;
+	text-align: center;
+	font-size: 0.472222rem;
+	color: #fff;
+	background: url("../image/btn_register1.png") no-repeat center;
+	background-size: 100% 100%;
+}

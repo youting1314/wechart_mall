@@ -1,0 +1,181 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	overflow-y: scroll;
+}
+.wrap {
+	width: 100%;
+	height: 100%;
+	padding-bottom: 1.388888rem;
+}
+/*网络请求时失败的界面显示样式开始*/
+.requestFail {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 3.75rem;
+}
+.requestFail img {
+	width: 1.555555rem;
+	height: 1.25rem;
+}
+.rf_h {
+	font-size: 0.472222rem;
+	margin-top: 0.722222rem;
+}
+.rf_p {
+	font-size: 0.361111rem;
+	color: #797B7F;
+	margin-top: 0.305555rem;
+}
+.rf_btn {
+	width: 1.833333rem;
+	height: 0.819444rem;
+	border: 1px solid #797B7F;
+	border-radius: 0.409722rem;
+	margin-top: 0.388888rem;
+	background: #fff;
+}
+/*网络请求时失败的界面显示样式结束*/
+.bgc {
+	width: 100%;
+	height: 0.305555rem;
+	background-color: #f5f5f5;
+}
+.my_collect {
+	width: 100%;
+	height: 3.333333rem;
+	border-bottom: 1px solid #e4e4e4;
+}
+.isChecked {
+	display: inline-block;
+	position: relative;
+	width: 0.430555rem;
+	height: 3.333333rem;
+	line-height: 3.333333rem;
+	margin-left: 0.513888rem;
+	margin-right: 0.180555rem;
+}
+.checked,.noChecked {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 0.430555rem;
+	height:0.430555rem;
+}
+.nc_img {
+	width: 2.541666rem;
+	height: 2.541666rem;
+	vertical-align: top;
+	margin-top: 0.347222rem;
+}
+.mc_text {
+	display: inline-block;
+	width: 55%;
+	margin-left: 0.208333rem;
+	vertical-align: top;
+	margin-top: 0.597222rem;
+}
+.mc_h {
+	width: 100%;
+	height: 0.944444rem;
+	font-size: 0.305555rem;
+	line-height: 0.472222rem;
+	float: left;
+	display: -webkit-box;
+    white-space: normal;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.mc_bottom {
+	width: 100%;
+	height: 1.111111rem;
+}
+.mc_left {
+	display: inline-block;
+	float: left;
+	text-align: left;
+	margin-top: 0.277777rem;
+}
+.mc_integral {
+	font-size: 0.305555rem;
+	color: #fc3734;
+}
+.mc_money {
+	font-size: 0.305555rem;
+	
+}
+.mc_right {
+	float: right;
+	text-align: center;
+	display: inline-block;
+	width: 1.95rem;
+	height: 0.819444rem;
+	font-size: 0.361111rem;
+	color: #FC3734;
+	line-height: 0.819444rem;
+	border: 1px solid #FC3734;
+	border-radius: 0.409722rem;
+	background: #fff;
+	margin-top: 0.555555rem;
+}
+.footer {
+	width: 100%;
+	height: 1.388888rem;
+	line-height: 1.388888rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 1000;
+	border-top: 1px solid #e4e4e4;
+	background: #fff;
+}
+.is_Checked {
+	float: left;
+	height: 1.388888rem;
+	width: 60%;
+}
+.is_Checked {
+	position: relative;
+	width: 0.430555rem;
+	height: 3.333333rem;
+	line-height: 3.333333rem;
+	margin-left: 0.513888rem;
+	margin-right: 0.180555rem;
+}
+.is_checked,.is_noChecked {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 0.430555rem;
+	height:0.430555rem;
+}
+.st_all {
+	display: inline-block;
+	height: 1.388888rem;
+	margin-left: 1.388888rem;
+	color: #797B7F;
+	font-size: 0.361111rem;
+}
+.addShopping {
+	float: right;
+	display: inline-block;
+	width: 29.166666%;
+	height: 1.388888rem;
+	line-height: 1.388888rem;
+	text-align: center;
+	background: #FF9500;
+	color: #fff;
+	border: 0;
+	outline: 0;
+}

@@ -1,0 +1,60 @@
+body {
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.o_pwd,.n_pwd {
+	position: relative;
+	width: 93.33333%;
+	margin: 0 auto;
+	height: 1.361111rem;
+	line-height:1.361111rem;
+	border-bottom: 0.013888rem solid #e4e4e4; 
+}
+.o_val,.n_val {
+	position: absolute;
+	
+	width: 98.511904%;
+	height: 100%;
+	font-size: 0.416666rem;
+	color: #979797;
+	padding-left: 0.138888rem;
+}
+.del_5,.del_6 {
+	position: absolute;
+	width: 0.458333rem;
+	height: 0.458333rem;
+	right: 0.25rem;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.hint {
+	width: 95.555555%;
+	padding-left: 0.444444rem;
+	font-size: 0.361111rem;
+	margin-top: 0.277777rem;
+	color: #FC3734;
+}
+.click_btn,.nclick_btn {
+	width: 93.333333%;
+	margin: 0 auto;
+	height: 1.222222rem;
+	line-height: 1.222222rem;
+	text-align: center;
+	font-size: 0.472222rem;
+	margin-top: 0.833333rem;
+}
+.click_btn {
+	background: url("../image/btn_register1.png") no-repeat center;
+	background-size: 100% 100%;
+	color: #fff;
+}
+.nclick_btn {
+	background: url("../image/btn_register2.png") no-repeat center;
+	background-size: 100% 100%;
+	color: #979797;
+}

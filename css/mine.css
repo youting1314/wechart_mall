@@ -1,0 +1,361 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: auto;
+	background: #f5f5f5;
+	padding-top: 0;
+	padding-bottom: 1.333333rem;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.coping {
+	width: 100%;
+	height: 5.097222rem;
+	background: url("../image/coping.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.m_head {
+	width: 100%;
+	height:1.416666rem;
+	line-height: 1.416666rem;
+	text-align: center;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.set {
+	position: absolute;
+	display:inline-block;
+	width: 1.055555rem;
+	height: 1.416666rem;
+	line-height: 1.416666rem;
+	left: 0.472222rem;
+	top: 0;
+}
+.set img {
+	width: 0.583333rem;
+	height: 0.583333rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+}
+.m_sure {
+	width: 100%;
+	height: 100%;
+	font-size: 0.472222rem;
+	color: #fff;
+}
+.m_message {
+	position: absolute;
+	display:inline-block;
+	width: 1.055555rem;
+	height: 1.416666rem;
+	right: 0.361111rem;
+	top: 0;
+}
+.m_message img {
+	width: 0.583333rem;
+	height: 0.569444rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+}
+.mine {
+	width: 100%;
+	height: 1.583333rem;
+	margin-top: 0.694444rem;
+	padding-left: 0.833333rem;
+	padding-right: 0.388888rem;
+}
+.m_pic {
+	display: inline-block;
+	width: 1.583333rem;
+	height: 1.583333rem;
+	vertical-align: middle;
+}
+.m_detail {
+	width: auto;
+	margin-left: 0.333333rem;
+	vertical-align: middle;
+	height: 1.583333rem;
+	display: inline-block;
+	padding-top: 0.277777rem;
+}
+.m_name,.m_integral{
+	font-size: 0.361111rem;
+	color: #fff;
+}
+.m_integral {
+	margin-top: 0.138888rem;
+}
+.arrow_wrap {
+	float: right;
+	width: 0.694444rem;
+	height: 1.583333rem;
+	line-height: 1.583333rem;
+	text-align: center;
+}
+.m_arrow {
+	width: 0.277777rem;
+	height: 0.5rem;
+	vertical-align: middle;
+}
+.m_nav {
+	width: 100%;
+	height: 1.263888rem;
+	margin-top: 0.133rem;
+}
+.m_ul {
+	width: 100%;
+	height: 100%;
+}
+.m_ul > li {
+	float: left;
+	width: 33.33333%;
+	height: 100%;
+	text-align: center;
+	padding-top: 0.222222rem;
+}
+.m_ul > li p {
+	font-size: 0.305555rem;
+	color: #fff;
+}
+.m_ul > li img {
+	width: 0.347222rem;
+	height: 0.388888rem;
+}
+.m_ul > li:last-of-type img {
+	width: 0.402777rem;
+	height: 0.388888rem;
+}
+.m_order {
+	width: 100%;
+	height: 1.347222rem;
+	line-height: 1.305555rem;
+	padding-left: 0.416666rem;
+	padding-right: 0.347222rem;
+	background: #fff;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+}
+.m_left {
+	float: left;
+}
+.m_left img {
+	width: 0.597222rem;
+	height: 0.625rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.m_left p {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.416666rem;
+	margin-left: 0.305555rem;
+}
+.m_right {
+	float: right;
+	width: 0.694444rem;
+	height: 1.347222rem;
+	line-height: 1.347222rem;
+	text-align: center;
+}
+.m_right img {
+	width: 0.194444rem;
+	height: 0.333333rem;
+	vertical-align: middle;
+}
+.w_nav {
+	width: 100%;
+	height: 1.722222rem;
+	background: #fff;
+	border-bottom: 0.013888rem solid #e4e4e4;
+}
+.w_ul {
+	width: 100%;
+	height: 100%;
+}
+.w_ul > li {
+	float: left;
+	width: 33.33333%;
+	height: 100%;
+	text-align: center;
+	padding-top: 0.375rem;
+}
+.w_ul > li p {
+	font-size: 0.305555rem;
+	color: #000;
+}
+.w_ul > li img {
+	width: 0.583333rem;
+	height: 0.527777rem;
+}
+.wait_ul > li:first-of-type img {
+	width: 0.527777rem;
+	height: 0.527777rem;
+}
+.w_ul > li:nth-child(2) {
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.w_message {
+	min-width: 0.555555rem;
+	width: auto;
+	height: 0.555555rem;
+	line-height: 0.472222rem;
+	border: 3px solid #FC3734;
+	color: #FC3734;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+.o_fun {
+	width: 100%;
+	height: auto;
+	
+	background: #fff;
+}
+.o_ul {
+	width: 100%;
+	height: auto;
+}
+.o_ul li {
+	width: 100%;
+	height: 1.430555rem;
+	line-height: 1.430555rem;
+	border-top: 1px solid #e4e4e4;
+	padding-left: 0.416666rem;
+	padding-right: 0.347222rem;
+}
+.o_left {
+	height: 1.430555rem;
+	float: left;
+	display: inline-block;
+}
+.o_left img {
+	width: 0.597222rem;
+	height: 0.597222rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+.o_left:last-of-type img {
+	width: 0.625rem;
+	height: 0.625rem;
+}
+.o_left p {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.416666rem;
+	margin-left: 0.305555rem;
+}
+.m_right {
+	float: right;
+	display: inline-block;
+	width: 0.694444rem;
+	height: 1.347222rem;
+	line-height: 1.347222rem;
+	text-align: center;
+	margin-left: 0.069444rem;
+}
+.m_right img {
+	width: 0.194444rem;
+	height: 0.333333rem;
+	vertical-align: middle;
+}
+.invitation_code {
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+	font-size: 0.361111rem;
+	color: #FC3734;
+}
+/*底部导航栏开始*/
+.f_nav {
+	width: 100%;
+	height: auto;
+	height: 1.333333rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	z-index: 1005;
+}
+.f_ul {
+	width: 100%;
+	height: auto;
+	height: 100%;
+	padding-top: 0.111111rem;
+	padding-bottom: 0.111111rem;
+}
+.f_ul li {
+	float: left;
+	width: 25%;
+	height: auto;
+	height: 100%;
+	text-align: center;
+}
+.f_ul li a {
+	width: 100%;
+	height: 100%;
+}
+.no_pitch,.pitch {
+	width: 0.625rem;
+	height: 0.569444rem;
+}
+.text {
+	margin-top: 0.027777rem;
+	color: #000;
+	font: 0.305555rem;
+}
+.text_pitch {
+	margin-top: 0.027777rem;
+	color: #fc3734;
+	font: 0.305555rem;
+}
+/*遮罩层开始*/
+.mask {       
+    position: absolute; 
+    top: 0px; 
+    filter: alpha(opacity=60); 
+    background-color: #777;     
+    z-index: 1100; 
+    left: 0px;     
+    opacity:0.5; 
+    -moz-opacity:0.5;     
+} 
+.invitation_style {
+	position: fixed;
+	width: 100%;
+	height: 3.555555rem;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	z-index: 2000;
+}
+.is_ul {
+	width: 100%;
+	height: 2rem;
+	margin-top: 0.777777rem;
+}
+.is_ul li {
+	float: left;
+	width: 25%;
+	height: 2rem;
+	text-align: center;
+}
+.is_ul li img {
+	width: 1.333333rem;
+	height: 1.333333rem;
+}
+.is_ul li p {
+	font-size: 0.305555rem;
+	margin-top: 0.25rem;
+}

@@ -1,0 +1,34 @@
+body {
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.icon {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.icon img {
+	margin-top: 1.472222rem;
+	width: 2.402777rem;
+	height: 2.402777rem;
+}
+.icon_p {
+	margin-top: 0.305555rem;
+	font-size: 0.361111rem;
+}
+.icon_text:first-of-type {
+	margin-top: 1.166666rem;
+}
+.icon_text {
+	width: 86.111111%;
+	text-indent: 2em;
+	line-height: 0.555555rem;
+	height: auto;
+	font-size: 0.305555rem;
+	margin: 0 auto;
+}

@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no" />
+		<title>购物车</title>
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/shoppingCar.css" />
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="head">
+				<div class="back">
+					<img src="../image/wback.png" alt="" />
+				</div>
+				<p class="sure">购物车<span class="s_left">(</span><span class="s_num">2</span><span class="s_right">)</span></p>
+				<div class="message">
+					<img src="../image/message.png" alt="" />
+				</div>
+			</div>
+			<div class="bgc"></div>
+			<div class="control">
+				<p class="edit">编辑</p>
+				<p class="finish" style="display: none">完成</p>
+			</div>
+			<div class="my_collect">
+				<div class="isChecked">
+					<img class='checked' src="../image/checked.png" alt="" />
+					<img class="noChecked" src="../image/noChecked.png" alt="" style="display:none"/>
+				</div>
+				<img class="nc_img" src="../image/order_goods.png" alt="" />
+				<div class="mc_text">
+					<p class="mc_h">现货&nbsp;瑞典进口&nbsp;ICA50%&nbsp;水果坚果燕麦片即食免煮&nbsp;冲饮早餐代餐</p>
+					<div class="mc_bottom clearfix">
+						<div class="mc_left">
+							<p class="norms">50%水果坚果750g</p>
+							<p class="mc_integral"><span>500</span>积分</p>
+							<p class="mc_money">￥<span>38.9</span></p>
+						</div>
+						<p class="mc_right">×<span>1</span></p>
+					</div>
+				</div>
+				<!--编辑后显示的内容-->
+				<div class="edit_c" style="display:none">
+					<span class="minus">-</span><span class="t_count">1</span><span class="plus">+</span>
+					<p class="norm">50%水果坚果750g</p>
+				</div>
+			</div>
+			<div class="my_collect">
+				<div class="isChecked">
+					<img class='checked' src="../image/checked.png" alt="" />
+					<img class="noChecked" src="../image/noChecked.png" alt="" style="display:none"/>
+				</div>
+				<img class="nc_img" src="../image/order_goods.png" alt="" />
+				<div class="mc_text">
+					<p class="mc_h">现货&nbsp;瑞典进口&nbsp;ICA50%&nbsp;水果坚果燕麦片即食免煮&nbsp;冲饮早餐代餐</p>
+					<div class="mc_bottom clearfix">
+						<div class="mc_left">
+							<p class="norms">50%水果坚果750g</p>
+							<p class="mc_integral"><span>500</span>积分</p>
+							<p class="mc_money">￥<span>38.9</span></p>
+						</div>
+						<p class="mc_right">×<span>1</span></p>
+					</div>
+				</div>
+				<div class="edit_c" style="display:none">
+					<span class="minus">-</span><span class="t_count">1</span><span class="plus">+</span>
+					<p class="norm">50%水果坚果750g</p>
+				</div>
+			</div>
+			<!--底部结算栏-->
+			<div class="so_total clearfix">
+				<div id="is_Checked">
+					<img class="is_checked" src="../image/checked.png" alt="" />
+					<img class="is_noChecked" style="display:none" src="../image/noChecked.png" alt="" />
+					<p class="st_all">全选</p>
+				</div>
+				<button class="sot_right" >结算<span class="s_left">(</span><span class="s_num">2</span><span class="s_right">)</span></button>
+				<button class="sot_del" style="display:none">删除</button>
+				<div class="sot_left" >
+					<p class="sot_top">合计：<span class="sot_m">￥</span><span class="sot_num">800</span><span class="sot_integral">&nbsp;积分</span></p>
+					<p class="sot_bottom">￥<span class="sob_m">20.9</span></p>
+				</div>
+			</div>
+			<!--底部固定导航栏-->
+			<div class="f_nav">
+				<ul class="f_ul">
+					<li>
+						<a href="">
+							<img class="no_pitch" src="../image/home.png" alt="" />
+							<img class="pitch" src="../image/home_pitch.png" alt="" style="display:none"/>
+							<p class="text">首页</p>
+							<p class="text_pitch" style="display:none">首页</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img class="no_pitch" src="../image/classify.png" alt="" />
+							<img class="pitch" src="../image/classify_pitch.png" alt="" style="display:none"/>
+							<p class="text">分类</p>
+							<p class="text_pitch" style="display:none">分类</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img class="no_pitch" src="../image/shoppingCar.png" alt="" style="display:none"/>
+							<img class="pitch" src="../image/shoppingCar_pitch.png" alt="" />
+							<p class="text" style="display:none">购物车</p>
+							<p class="text_pitch" >购物车</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img class="no_pitch" src="../image/my.png" alt="" />
+							<img class="pitch" src="../image/my_pitch.png" alt="" style="display:none"/>
+							<p class="text">我的</p>
+							<p class="text_pitch" style="display:none">我的</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="../js/flexible.js"></script>

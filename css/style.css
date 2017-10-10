@@ -1,0 +1,239 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	-webkit-text-size-adjust: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block
+}
+body {
+	width: 100%;
+	height: auto;
+	background-color: #fff6da;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	padding-top: 1.416666rem;
+}
+ol,
+ul {
+	list-style: none
+}
+a {
+	text-decoration: none
+}
+html {
+	height: 100%
+}
+.shade {
+	min-width: 50%;
+	max-width: 70%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: .277777rem;
+	padding-bottom: .277777rem;
+	background: #000;
+	opacity: .65;
+	border: 1px solid #00000;
+	border-radius: .138888rem;
+	margin-top: .416666rem;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none
+}
+.shade>p {
+	width: 80%;
+	height: auto;
+	font-size: .472222rem;
+	margin: .305555rem auto;
+	color: #fff;
+	text-align: center;
+	word-wrap: break-word
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+.clearfix {
+	*zoom: 1;
+}
+.bgc {
+	width: 100%;
+	height: 0.305555rem;
+	background: #f5f5f5;
+}
+/*顶部公共样式*/
+.head {
+	width: 100%;
+	height:1.416666rem;
+	line-height: 1.416666rem;
+	text-align: center;
+	position: fixed;
+	background: url("../image/top_bg.png") no-repeat center;
+	background-size: 100% 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.back {
+	position: absolute;
+	display:inline-block;
+	width: 1.055555rem;
+	height: 1.416666rem;
+	left: 0.472222rem;
+	top: 0;
+}
+.back img{
+	width: 0.444444rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+}
+.sure {
+	width: 100%;
+	height: 100%;
+	font-size: 0.472222rem;
+	color: #fff;
+}
+.save {
+	width: auto;
+	height: 100%;
+	font-size: 0.361111rem;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	right: 0.361111rem;
+	transform: translateY(-50%);
+}
+.message {
+	position: absolute;
+	display:inline-block;
+	width: 1.055555rem;
+	height: 1.416666rem;
+	right: 0.361111rem;
+	top: 0;
+}
+.message img {
+	width: 0.583333rem;
+	height: 0.569444rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+}
+

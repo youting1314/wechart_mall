@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: auto;
+	background: #f5f5f5;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.total_integral {
+	width: 100%;
+	height: 1.555555rem;
+	line-height: 1.555555rem;
+	text-align: center;
+	font-size: 0.361111rem;
+	color: #fc3734;
+	background: #fff;
+}
+.total_integral span {
+	font-weight: 600;
+	font-size: 0.472222rem;
+}
+.about_integral {
+	width: 100%;
+	height: 1.055555rem;
+	background: #fff;
+	margin-top: 0.013888rem;
+}
+.itg_left,.itg_right{
+	width: 49.861111%;
+	line-height: 1.055555rem;
+	text-align: center;
+}
+.itg_left {
+	float: left;
+	border-right: 1px solid #f5f5f5;
+}
+.itg_left img,.itg_right img {
+	width: 0.5rem;
+	height: 0.5rem;
+	vertical-align: middle;
+}
+.itg_left span,.itg_right span {
+	display: inline-block;
+	line-height: 1.055555rem;
+	vertical-align: middle;
+	font-size: 0.361111rem;
+	padding-top: 0.041666rem;
+	color: #fc3734;
+}
+.itg_right {
+	float: right;
+}
+.itg_detail {
+	width: 100%;
+	margin-top: 0.305555rem;
+	padding-top: 0.388888rem;
+	background: #fff;
+	padding-bottom: 0.277777rem;
+}
+.itg_title {
+	font-size: 0.305555rem;
+	color: #000;
+	margin-left: 0.222222rem;
+}
+.itg_nav {
+	width: 60.972222%;
+	margin: 0 auto;
+	margin-top: 0.666666rem;
+	height: auto;
+}
+.itg_nav li {
+	width: 33.333333%;
+	font-size: 0.305555rem;
+	line-height: 0.638888rem;
+	text-align: center;
+	float: left;
+}
+.itg_nav li:first-of-type {
+	border: 0.013888rem solid #fc3734;
+	border-right: 0;
+	background: #fc3734;
+	border-radius: 0.138888rem 0 0 0.138888rem;
+	color: #fff;
+}
+.itg_nav li:nth-child(2) {
+	border: 0.013888rem solid #fc3734;
+	color: #fc3734;
+}
+.itg_nav li:last-of-type {
+	border: 0.013888rem solid #fc3734;
+	color: #fc3734;
+	border-left: 0;
+	border-radius: 0 0.138888rem 0.138888rem 0;
+}
+.happy_goods {
+	font-size: 0.305555rem;
+	margin-top: 0.277777rem;
+	margin-left: 0.222222rem;
+	color: #000;
+}
+.hg_time,.sign_time {
+	width: 100%;
+	padding-left: 0.222222rem;
+	margin-top: 0.111111rem;
+}
+.hg_left,.st_left {
+	float: left;
+	font-size: 0.305555rem;
+	color: #979797;
+}
+.hg_right,.st_right{
+	float: right;
+	color: 0.305555rem;
+	color: #FC3734;
+	margin-right: 0.555555rem;
+}
+.sign {
+	font-size: 0.305555rem;
+	margin-top: 0.444444rem;
+	margin-left: 0.222222rem;
+	color: #000;
+}
+.sign_time {
+	
+}

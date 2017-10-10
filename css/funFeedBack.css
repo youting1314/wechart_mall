@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.fun_nav {
+	width: 95.555555%;
+	height: 0.902777rem;
+	margin: 0 auto;
+	margin-top: 0.694444rem;
+}
+.fun_ul {
+	width: 100%;
+	height: 0.902777rem;
+}
+.fun_ul li {
+	width: 23.401162%;
+	float: left;
+	line-height:0.902rem;
+	text-align: center;
+	border: 0.027777rem solid #fc3734;
+	border-radius: 0.138888rem;
+	font-size: 0.305555rem;
+	margin-right: 0.194444rem;
+}
+.fun_ul li:last-of-type {
+	margin-right: 0;
+}
+.fun_ul li:first-of-type {
+	color: #fc3734;
+}
+.form {
+	width: 100%;
+	height: auto;
+	padding-left: 0.277777rem;
+}
+.f_problem {
+	font-size: 0.361111rem;
+	color: #000;
+	margin-top: 0.75rem;
+}
+.f_problem span {
+	color: #FC3734;
+	margin-right: 0.138888rem;
+}
+.text_content {
+	width: 97%;
+	height: 3.583333rem;
+	border: 0;
+	border: 1px solid #e4e4e4;
+	border-radius: 0.138888rem;
+	margin-top: 0.305555rem;
+	outline: 0;
+	resize: none;
+	padding: 0.138888rem 0.138888rem;
+}
+.offer_photo {
+	margin-top: 0.375rem;
+	font-size: 0.361111rem;
+	color: #000;
+}
+.about_img {
+	width: 100%;
+	height: 2.083333rem;
+	position: relative;
+	margin-top: 0.236111rem;
+}
+.upImg {
+	position: absolute;
+	width: 2.055555rem;
+	height: 2.055555rem;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	z-index: 2;
+}
+.upImg_btn {
+	position: absolute;
+	width: 2.055555rem;
+	height: 2.055555rem;
+	top: 0;
+	left: 0;
+}
+.about_img p {
+	position: absolute;
+	font-size: 0.305555rem;
+	color: #979797;
+	top: 1.55rem;
+	left: 0.4rem;
+}
+.contact_style {
+	margin-top: 0.416666rem;
+	font-size: 0.361111rem;
+	color: #000;
+}
+.cs_phone {
+	width: 97.142857%;
+	height: 1.222222rem;
+	font-size: 0.305555rem;
+	color: #979797;
+	padding-left: 0.194444rem;
+	line-height: 1.222222rem;
+	border: 0;
+	border: 1px solid #e4e4e4;
+	border-radius: 0.138888rem;
+	margin-top: 0.236111rem;
+}
+
+
+
+.submit {
+	width: 100%;
+	height: auto;
+	margin-top: 0.666666rem;
+}
+.sub_Btn {
+	width: 93.333333%;
+	height: 1.222222rem;
+	line-height: 1.222222rem;
+	font-size: 0.472222rem;
+	color: #979797;
+	text-align: center;
+	margin: 0 auto;
+	background: url("../image/btn_register1.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.sub_BtnInvalid {
+	width: 93.333333%;
+	height: 1.222222rem;
+	line-height: 1.222222rem;
+	font-size: 0.472222rem;
+	color: #979797;
+	text-align: center;
+	margin: 0 auto;
+	background: url("../image/btn_register2.png") no-repeat center;
+	background-size: 100% 100%;
+}

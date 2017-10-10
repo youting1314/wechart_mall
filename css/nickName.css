@@ -1,0 +1,39 @@
+body {
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+.wrap {
+	width: 100%;
+	height: auto;
+}
+.input_name {
+	position: relative;
+	width: 93.888888%;
+	margin: 0 auto;
+	height: 0.833333rem;
+	line-height: 0.833333rem;
+	margin-top: 0.416666rem;
+	border-bottom: 0.027777rem solid #FC3734;
+}
+.input_name input {
+	width: 98.520710%;
+	height: 100%;
+	padding-left: 0.138888rem;
+	font-size: 0.416666rem;
+}
+.input_name img {
+	position: absolute;
+	width: 0.458333rem;
+	height: 0.458333rem;
+	right: 0.25rem;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.explain {
+	width: 95.555555%;
+	padding-left: 0.444444rem;
+	font-size: 0.361111rem;
+	margin-top: 0.166666rem;
+	color: #FC3734;
+}
